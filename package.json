@@ -1,0 +1,40 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "backend nodejs DuyBM",
+    "main": "sever.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec ./node_modules/.bin/babel-node src/sever.js"
+    },
+    "keywords": [
+        "fullstack",
+        "nodejs",
+        "express",
+        "DuyBM"
+    ],
+    "author": "Duy",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.5",
+        "express": "^4.18.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.4",
+        "mysql2": "^2.2.5",
+        "nodemailer": "^6.7.7",
+        "sequelize": "^6.21.0",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/node": "^7.12.10",
+        "@babel/preset-env": "^7.12.10",
+        "nodemon": "^2.0.18",
+        "sequelize-cli": "^6.2.0"
+    }
+}
